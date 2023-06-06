@@ -1,0 +1,224 @@
+.navbar-expand-lg .navbar-collapse {
+  display: flex!important;
+  justify-content: space-around;
+  flex-basis: auto;
+
+  }
+ .border-bottom
+ {
+    width: 80%;
+    margin-left:10%;
+ }
+.nav-item
+{
+  
+
+    font-size: 25px;
+
+}
+
+
+    .gradient-background{
+        background: linear-gradient(-45deg, #787ff6, #7879ff, #55d0ff, #0000ff);
+        background-size: 400% 400%;
+        animation: gradient 15s ease infinite;
+    }
+    
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    .navbar a {
+      color: white;
+  }
+ 
+    #Font{
+        color: white;
+        font-family: 'Anonymous Pro', monospace;
+    
+    }
+   
+    
+    
+    .typing-demo {
+      width: 22ch;
+      animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 3px solid;
+      font-family: monospace;
+      font-size: 2em;
+    }
+    
+    @keyframes typing {
+      from {
+        width: 0
+      }
+    }
+        
+    @keyframes blink {
+      50% {
+        border-color: transparent
+      }
+    }
+    .heading
+    {
+      font-family: 'PT Serif', serif;
+    }
+    p{
+      font-family: 'Kanit', sans-serif;
+      
+    }
+    .nav-font
+    {
+      font-family: 'Kanit', sans-serif;
+    }
+    .borderd
+    {
+      width:90%;
+      margin-left:5%;
+      padding-bottom:50px;
+      border-bottom:dotted 8px grey;
+
+    }
+    
+    
+  .daba
+  {
+    margin:10px;
+  }
+
+  
+  lottie-player {
+    --lottie-player-toolbar-height: 0;
+    --lottie-player-toolbar-background-color: none;
+    --lottie-player-toolbar-icon-color: none;
+    --lottie-player-toolbar-icon-hover-color: none;
+    --lottie-player-toolbar-icon-active-color: none;
+    --lottie-player-seeker-track-color: none;
+    --lottie-player-seeker-thumb-color: none;
+    margin: 0 auto;
+    padding:0;
+}
+
+
+
+
+.btn-flip{
+  border:none;
+	opacity: 1;
+	outline: 0;
+	color: #fff;
+	line-height: 40px;
+	position: relative;
+	text-align: center;
+	letter-spacing: 1px;
+	display: inline-block;
+	text-decoration: none;
+	font-family: 'Open Sans';
+	text-transform: uppercase;
+	
+	&:hover{
+		
+		&:after{
+      
+			opacity: 1;
+			transform: translateY(0) rotateX(0);
+		}
+		
+		&:before{
+			opacity: 0;
+			transform: translateY(50%) rotateX(90deg);
+		}
+	}
+	
+	&:after{
+  border: dotted black 2px;
+
+		top: 0;
+		left: 0;
+		opacity: 0;
+		width: 100%;
+		color: whitesmoke;
+		display: block;
+		transition: 0.5s;
+		position: absolute;
+		background: linear-gradient(-45deg, #787ff6, #7879ff, #55d0ff, #0000ff);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+		content: attr(data-back);
+		transform: translateY(-50%) rotateX(90deg);
+	}
+	
+	&:before{
+		top: 0;
+		left: 0;
+		opacity: 1;
+		color: white;
+		display: block;
+		padding: 0 30px;
+		line-height: 40px;
+		transition: 0.5s;
+		position: relative;
+		background: blue;
+		content: attr(data-front);
+		transform: translateY(0) rotateX(0);
+	}
+}
+.credits
+{
+  color:white;
+}
+.icon-color
+{
+  color:white;
+}
+.icon-color:hover {
+  color: black;
+}
+.gh:hover
+{
+  color:#171515;
+}
+.ld:hover
+{
+  color:#0A66C2;
+}
+.insta:hover
+{
+  color:#d62976;
+}
+
+.fb:hover
+{
+  color:#3b5998;
+}
+.twitter:hover
+{
+  color:#00acee ;
+}
+.desc{
+  color:white;
+  
+}
+
+.bkc
+{
+  
+  background: linear-gradient(-45deg, #3d6cb9, #00fff0);
+        background-size: 400% 400%;
+        animation: gradient 15s ease infinite;
+}
+ .bkc:hover{
+      transform: scale(1.05);
+      overflow: hidden;
+      transition: 0.5s;
+  }
+ 
